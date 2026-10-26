@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.8.2](https://github.com/cedya77/aiometadata/compare/v3.8.1...v3.8.2) (2026-10-26)
+
+
+### Bug Fixes
+
+* **jellyfin:** key a recommendation row's length and position by its rebuild ([e2308cb](https://github.com/cedya77/aiometadata/commit/e2308cb5a3aeb00bda9369453941a44e660c2d7b))
+* **jellyfin:** show a rebuilt recommendation row's new length straight away ([4bd3d3c](https://github.com/cedya77/aiometadata/commit/4bd3d3cf753590fe4bfe6ae44cf05fcb6acdf0bf))
+* **recommendations:** count a title once when its histories share only a TMDB id ([52311c8](https://github.com/cedya77/aiometadata/commit/52311c8027a817e6b23e1a9c7b24b5db032dfa56))
+* **recommendations:** find anime in every history, and always tell the model what was watched ([8c90992](https://github.com/cedya77/aiometadata/commit/8c90992a8181af0d810398f35371d7b1aaac4f81))
+* **recommendations:** job progress needs the configuration's password or signed-in account ([168c699](https://github.com/cedya77/aiometadata/commit/168c69986ee4dadf9088a7b3d10f7e27776c464e))
+* **recommendations:** leave out every title a profile played, named or not ([f5efc10](https://github.com/cedya77/aiometadata/commit/f5efc10a41810968b98452c4bc5e3a8a5db5de88))
+* **recommendations:** leave out watched titles the mapping file does not know ([9097bea](https://github.com/cedya77/aiometadata/commit/9097bead42b1bf425f364846fdf20d920f1b731f))
+* **recommendations:** mark anime from every history as anime in the taste sample ([26aeca6](https://github.com/cedya77/aiometadata/commit/26aeca62fff3c7c4a48fa33f5cb618c34aec9808))
+* **recommendations:** never merge a film and a series that share a TMDB number ([829d808](https://github.com/cedya77/aiometadata/commit/829d8083a354385f7a16349929a2e3136f83c317))
+* **recommendations:** rate every pick the local id mappings can place on IMDb ([59b2894](https://github.com/cedya77/aiometadata/commit/59b28940325d303745219f31dee9f637052c29a5))
+* **recommendations:** read a watched title's ids from its cached metadata as a last resort ([7548835](https://github.com/cedya77/aiometadata/commit/75488350d4fe8083aa5e9bbbe1f0835bb8bfb810))
+* **recommendations:** report refused builds, follow every profile's build, offer rows only with a history ([d2d2718](https://github.com/cedya77/aiometadata/commit/d2d2718e22b3a1619f31323825cc44a9d8fa5048))
+* **recommendations:** stop refreshing rows for profiles that were removed ([9c861ff](https://github.com/cedya77/aiometadata/commit/9c861ff176776c48f53e91390df0049d48b3b622))
+
 ## [3.8.1](https://github.com/cedya77/aiometadata/compare/v3.8.0...v3.8.1) (2026-10-26)
 
 
